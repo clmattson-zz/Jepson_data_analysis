@@ -105,3 +105,32 @@ Init time: 1935 ms
 Caller time: 23516178 ms, Samples called: 92996859186, samples/s: 3.95459e+06
 Finishing up any open output files.
 Basecalling completed successfully.
+
+
+#no sample
+
+#pass
+#passed reads
+ ~/ont-guppy/bin/guppy_basecaller --input_path /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fast5_pass/ --save_path /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fastq_sac_cd --calib_detect --config dna_r10.4_e8.1_sup.cfg -x cuda:0 --num_callers 8
+ 
+ ONT Guppy basecalling software version 5.0.11+2b6dbff
+config file:        /home/user/ont-guppy/data/dna_r10.4_e8.1_sup.cfg
+model file:         /home/user/ont-guppy/data/template_r10.4_e8.1_sup.jsn
+input path:         /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fast5_pass/
+save path:          /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fastq_sac_cd
+chunk size:         2000
+chunks per runner:  256
+minimum qscore:     10
+records per file:   4000
+num basecallers:    8
+gpu device:         cuda:0
+kernel path:
+runners per device: 12
+Found 324 fast5 files to process.
+Init time: 1814 ms
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+
+
+```
