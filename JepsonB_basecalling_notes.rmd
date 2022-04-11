@@ -180,5 +180,24 @@ Init time: 1862 ms
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
+***************************************************
+Caller time: 42204800 ms, Samples called: 166550723928, samples/s: 3.94625e+06
+Finishing up any open output files.
+Basecalling completed successfully.
+
+
+#read splitting
+#no sample
+duplex_tools split_on_adapter /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fastq_sac_cd/pass /mnt/data0/MinION_reads/JepsonB/no_sample/20220217_1220_MN23913_FAS20148_5440bf6a/fastq_sac_cd/pass/split_pass Native
+531it [00:23, 22.15it/s]
+Split 68227 reads kept 1476472 reads
+
+
+(duplex) (base) user@user-System-Product-Name:/mnt/data0/MinION_reads/JepsonB/JepsonB/20220216_1555_MN23913_FAS20148_2c755436/fastq_sac_cd/pass$ duplex_tools split_on_adapter /mnt/data0/MinION_reads/JepsonB/JepsonB/20220216_1555_MN23913_FAS20148_2c755436/fastq_sac_calib/pass /mnt/data0/MinION_reads/JepsonB/JepsonB/20220216_1555_MN23913_FAS20148_2c755436/fastq_sac_calib/pass/split_pass2 Native
+498it [00:31, 15.81it/s]
+Split 47582 reads kept 846487 reads
+
+
+
 
 ```
